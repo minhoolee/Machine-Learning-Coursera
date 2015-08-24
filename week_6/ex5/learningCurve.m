@@ -53,9 +53,20 @@ error_val   = zeros(m, 1);
 
 % ---------------------- Sample Solution ----------------------
 
+for i = 1:m
+	
+	% Calculate theta for training and cross validation sets
+	theta = trainLinearReg( X(1:i, :), y(1:i, :), lambda );
+	
+	% Find errors for data sets of increasing size
+	% No regularization for learning curves
+	error_train(i) = linearRegCostFunction(X(1:i, :), y(1:i, :), theta, 0);
 
-
-
+	% Find errors for entire data set to show how the optimized theta
+	% Changes the error for a new data set
+	% No regularization for learning curves
+	error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
+end
 
 
 

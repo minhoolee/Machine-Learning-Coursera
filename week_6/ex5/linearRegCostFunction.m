@@ -19,10 +19,24 @@ grad = zeros(size(theta));
 %               You should set J to the cost and grad to the gradient.
 %
 
+% Linear hypothesis
+h = X * theta;
 
+% Element by element square to find mean square error
+sumSqrErrors = sum((h - y) .^ 2);
 
+% Do not regularize the bias parameter
+theta(1) = 0;
 
+% Regularize parameters of theta to prevent overfitting
+regParams = (lambda / (2 * m)) * sum(theta .^ 2); 
 
+% Regularized linear cost function
+J = (1/(2 * m)) * sumSqrErrors + regParams;
+
+% Calculate partial derivative of the cost function
+% (Slopes of predicted points)
+grad = ((1/m) * X'*(h - y)) + (lambda/m) * theta;
 
 
 
