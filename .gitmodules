@@ -1,5 +1,5 @@
 [submodule "R"]
-	path = R
+	path = R/full_implementations
 	url = https://github.com/faridcher/MachineLearningMOOC.git
 [submodule "MATLAB"]
 	path = MATLAB
@@ -11,11 +11,11 @@
 	path = MATLAB/full_implementations
 	url = https://github.com/vugsus/coursera-machine-learning.git
 [submodule "CommonLisp"]
-	path = CommonLisp
+	path = Lisp/partial_common_lisp_implementations
 	url = https://github.com/mabragor/little-ml.git
 [submodule "Python"]
-	path = Python
+	path = Python/full_jupyter_implementations
 	url = https://github.com/kaleko/CourseraML.git
 [submodule "C++"]
-	path = C++
+	path = C++/partial_implementations
 	url = https://github.com/tbl3rd/ang-ml.git
