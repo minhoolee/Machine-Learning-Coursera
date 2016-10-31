@@ -1,3 +1,15 @@
 [submodule "Python/Coursera-Machine-Learning"]
 	path = Python
 	url = https://github.com/JWarmenhoven/Coursera-Machine-Learning.git
+[submodule "R"]
+	path = R
+	url = https://github.com/faridcher/MachineLearningMOOC.git
+[submodule "MATLAB"]
+	path = MATLAB
+	url = https://github.com/vugsus/coursera-machine-learning.git
+[submodule "supervised_and_unsupervised_implem"]
+	path = MATLAB/supervised_and_unsupervised_implem
+	url = https://github.com/quinnliu/machineLearning.git
+[submodule "MATLAB/full_implementations"]
+	path = MATLAB/full_implementations
+	url = https://github.com/vugsus/coursera-machine-learning.git
