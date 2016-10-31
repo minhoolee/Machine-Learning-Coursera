@@ -1,6 +1,3 @@
-[submodule "Python/Coursera-Machine-Learning"]
-	path = Python
-	url = https://github.com/JWarmenhoven/Coursera-Machine-Learning.git
 [submodule "R"]
 	path = R
 	url = https://github.com/faridcher/MachineLearningMOOC.git
@@ -16,3 +13,9 @@
 [submodule "CommonLisp"]
 	path = CommonLisp
 	url = https://github.com/mabragor/little-ml.git
+[submodule "Python"]
+	path = Python
+	url = https://github.com/kaleko/CourseraML.git
+[submodule "C++"]
+	path = C++
+	url = https://github.com/tbl3rd/ang-ml.git
