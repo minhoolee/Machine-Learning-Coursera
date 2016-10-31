@@ -13,3 +13,6 @@
 [submodule "MATLAB/full_implementations"]
 	path = MATLAB/full_implementations
 	url = https://github.com/vugsus/coursera-machine-learning.git
+[submodule "CommonLisp"]
+	path = CommonLisp
+	url = https://github.com/mabragor/little-ml.git
