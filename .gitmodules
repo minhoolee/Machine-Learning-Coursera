@@ -1,0 +1,3 @@
+[submodule "Python/Coursera-Machine-Learning"]
+	path = Python
+	url = https://github.com/JWarmenhoven/Coursera-Machine-Learning.git
